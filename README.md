@@ -8,8 +8,8 @@ This folder is the 2026-05-06 copy website pass. Narayan approved overwriting th
 
 Use a two-offer public architecture:
 
-1. Growth - the managed outbound channel for companies with an exact buyer to reach.
-2. AI Solutions - standalone internal business AI for operations, documents, support, reporting, ordering, and similar workflows.
+1. Growth - the performance-aligned outbound partnership for companies with specific buyers to reach.
+2. AI Solutions - standalone internal business AI for operations, documents, support, reporting, ordering, and similar repeatable work.
 
 Do not create a separate public Workshop page. Keep the buyer map workshop as a short section inside `data.html`.
 
@@ -19,10 +19,10 @@ Lead with aggregate proof, not one named client.
 
 The site proves breadth first, using the `AA_Clients_ICPs` artefacts as the current source:
 
-- 82 historical ICPs successfully structured into the aggregate data set.
-- 36 Australian B2B niche profiles mapped from those ICPs.
-- 42 canonical decision-maker roles mapped by function.
-- 4,821 raw title signals reviewed across the source data.
+- 82 historical buyer profiles successfully structured into the aggregate data set.
+- 36 Australian B2B niche profiles mapped from those buyer profiles.
+- 42 decision-maker role groups mapped by function.
+- 4,821 raw title patterns reviewed across the source data.
 - Named case studies only where permission and audited numbers are clear.
 
 This is important because AA serves many niches. One client story can accidentally make the business look narrower than it is.
@@ -34,7 +34,7 @@ This is important because AA serves many niches. One client story can accidental
 - v05: human-first partnership language.
 - v06: trust layer with awards and client videos.
 - v07: AI as a capability layer, with a simpler public architecture.
-- Variant 08: Data and ICP Workshop as the week-one ritual.
+- Variant 08: Buyer Map Workshop as the week-one ritual.
 - v09: workshop detail, compressed into the Data page.
 - v10: footer and production navigation.
 - v11: final baseline structure.
@@ -42,7 +42,7 @@ This is important because AA serves many niches. One client story can accidental
 ## Files
 
 - `index.html` - home page and main credibility pack.
-- `growth.html` - managed outbound channel.
+- `growth.html` - performance-aligned outbound partnership.
 - `ai-solutions.html` - practical internal AI systems.
 - `data.html` - data process and workshop section.
 - `proof.html` - aggregate proof layer and niche grid.
@@ -50,7 +50,7 @@ This is important because AA serves many niches. One client story can accidental
 - `contact.html` - enquiry form and direct email path.
 - `privacy.html` - plain privacy page for the marketing site.
 - `terms.html` - plain terms page for the marketing site.
-- `404.html` - branded page-not-found route.
+- `404.html` - branded page-not-found page.
 - `styles.css` - shared design system.
 - `assets/favicon.svg` - simple branded favicon.
 
