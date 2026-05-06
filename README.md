@@ -24,6 +24,7 @@ The site proves breadth first, using the `AA_Clients_ICPs` artefacts as the curr
 - 42 decision-maker role groups mapped by function.
 - 4,821 raw title patterns reviewed across the source data.
 - Named case studies only where permission and audited numbers are clear.
+- Founding-team recognition, including BRW, Deloitte and EY, should appear on the homepage as an early credibility layer once final wording and logo usage are confirmed.
 
 This is important because AA serves many niches. One client story can accidentally make the business look narrower than it is.
 
