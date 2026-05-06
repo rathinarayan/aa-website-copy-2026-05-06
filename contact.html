@@ -4,12 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Contact · Automate Accelerator</title>
+<meta name="description" content="Contact Automate Accelerator to discuss B2B outbound, decision-maker data, or AI Solutions for your Australian business.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
 <nav class="nav">
   <div class="nav-wrap">
     <a href="index.html" class="logo"><img src="assets/AA-logo-dark.png" alt="Automate Accelerator"></a>
@@ -25,6 +28,7 @@
   </div>
 </nav>
 
+<main id="main">
 <header class="hero">
   <div class="container">
     <p class="page-chip">Contact</p>
@@ -60,17 +64,72 @@
   </div>
 </section>
 
+<section class="contact-section">
+  <div class="container contact-grid">
+    <aside class="contact-panel">
+      <p class="section-tag">Start here</p>
+      <h2>Send the context. <em>We will respond with the right next step.</em></h2>
+      <p>
+        The best first message is plain: what you sell, who you want to reach, what you have tried,
+        and whether this is about pipeline, internal AI, or both.
+      </p>
+      <ul class="contact-list">
+        <li><strong>Email</strong><a class="text-link" href="mailto:info@automateaccelerator.com">info@automateaccelerator.com</a></li>
+        <li><strong>Location</strong>Melbourne, Victoria · AA-owned operations in India</li>
+        <li><strong>Response</strong>If there is a clear fit, pricing and scope are put in writing before work starts.</li>
+      </ul>
+    </aside>
+
+    <form class="contact-form" action="mailto:info@automateaccelerator.com" method="post" enctype="text/plain">
+      <div class="form-row">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Work email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="field">
+          <label for="company">Company</label>
+          <input id="company" name="company" autocomplete="organization">
+        </div>
+        <div class="field">
+          <label for="interest">What do you need?</label>
+          <select id="interest" name="interest" required>
+            <option value="">Choose one</option>
+            <option>Growth engine</option>
+            <option>AI Solutions</option>
+            <option>Both</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="message">Context</label>
+        <textarea id="message" name="message" required placeholder="Tell us the buyer, the problem, the current motion, and the outcome you care about."></textarea>
+      </div>
+      <button class="btn btn-primary btn-big" type="submit">Send enquiry</button>
+      <p class="form-note">This static form opens your email client with the details attached. You can also email us directly.</p>
+    </form>
+  </div>
+</section>
+
 <section class="finale-section">
   <div class="container">
     <p class="section-tag">Reach us</p>
     <h2>info@automateaccelerator.com</h2>
     <p class="lede">Melbourne, Victoria · AA-owned operations in India · Australian English only · ex GST.</p>
-    <div class="cta-row" style="justify-content:center">
+    <div class="cta-row">
       <a href="mailto:info@automateaccelerator.com" class="btn btn-primary btn-big">Send an email</a>
       <a href="services.html" class="btn btn-ghost arrow">See services again</a>
     </div>
   </div>
 </section>
+
+</main>
 
 <footer class="foot">
   <div class="container">
@@ -85,8 +144,8 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="ai.html">AI</a></li>
-          <li><a href="data.html">Data</a></li>
+      <li><a href="ai.html">AI</a></li>
+      <li><a href="data.html">Data</a></li>
           <li><a href="case-studies.html">Case Studies</a></li>
           <li><a href="team.html">Our Team</a></li>
         </ul>
