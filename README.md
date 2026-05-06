@@ -54,6 +54,9 @@ This is important because AA serves many niches. One client story can accidental
 - `404.html` - branded page-not-found page.
 - `styles.css` - shared design system.
 - `assets/favicon.svg` - simple branded favicon.
+- `assets/aa-buyer-map-hero-v2.png` - imagegen-created homepage buyer-map visual.
+- `assets/aa-buyer-map-hero-loop.mp4` - Remotion-rendered homepage hero loop.
+- `src/` - Remotion source used to render the hero animation.
 
 ## Launch blockers
 

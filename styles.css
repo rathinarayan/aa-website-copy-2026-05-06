@@ -213,6 +213,77 @@ p{text-wrap:pretty}
     linear-gradient(90deg,rgba(255,252,246,.82),rgba(255,252,246,.1)),
     url("assets/market-access-hero.png") center/cover;
 }
+.hero-home > .container::after,
+.hero-home > .container::before{display:none}
+.hero-visual-shell{
+  grid-column:2;
+  grid-row:1 / span 5;
+  align-self:center;
+  justify-self:stretch;
+  position:relative;
+  border-radius:18px;
+  padding:10px;
+  background:linear-gradient(135deg,rgba(255,252,246,.92),rgba(238,231,219,.72));
+  border:1px solid rgba(23,19,15,.12);
+  box-shadow:0 36px 90px rgba(64,47,30,.18);
+  transform:rotate(1deg);
+}
+.hero-visual{
+  position:relative;
+  overflow:hidden;
+  min-height:500px;
+  border-radius:12px;
+  background:var(--paper);
+  border:1px solid rgba(23,19,15,.1);
+}
+.hero-visual img,
+.hero-visual video{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  min-height:500px;
+  object-fit:cover;
+  object-position:center;
+  filter:saturate(.96) contrast(1.02);
+}
+.hero-visual img{z-index:0}
+.hero-visual video{z-index:1}
+.hero-visual::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:2;
+  background:
+    linear-gradient(180deg,rgba(255,252,246,.1),rgba(23,19,15,.08)),
+    radial-gradient(circle at 72% 58%,rgba(223,111,40,.16),transparent 34%);
+  pointer-events:none;
+}
+.hero-map-card{
+  position:absolute;
+  z-index:3;
+  width:min(250px,72%);
+  padding:16px 18px;
+  border-radius:10px;
+  background:rgba(255,252,246,.88);
+  border:1px solid rgba(23,19,15,.14);
+  box-shadow:0 20px 44px rgba(64,47,30,.16);
+}
+.hero-map-card span{
+  display:block;
+  font-family:var(--mono);
+  font-size:10px;
+  text-transform:uppercase;
+  color:var(--orange);
+  margin-bottom:6px;
+}
+.hero-map-card strong{
+  display:block;
+  color:var(--ink);
+  font-size:15px;
+  line-height:1.25;
+}
+.hero-map-card-top{top:24px;left:24px}
 .hero > .container::before{
   content:"82 ICPs\A 36 niches\A 42 roles";
   white-space:pre;
@@ -654,12 +725,14 @@ section.wide{padding:128px 0}
 
 /* Motion */
 @media (prefers-reduced-motion:no-preference){
-  .hero h1,.hero-sub,.cta-row,.hero-stats,.featured-card,.path-card,.niche,.why-card,.video-card,.product-col,.layer,.workflow-step,.founder,.org-card{
+  .hero h1,.hero-sub,.cta-row,.hero-stats,.hero-visual-shell,.home-awards-strip,.featured-card,.path-card,.niche,.why-card,.video-card,.product-col,.layer,.workflow-step,.founder,.org-card{
     animation:rise .72s var(--ease) both;
   }
   .hero-sub{animation-delay:.08s}
   .cta-row{animation-delay:.14s}
-  .hero-stats{animation-delay:.2s}
+  .hero-visual-shell{animation-delay:.18s}
+  .hero-stats{animation-delay:.24s}
+  .home-awards-strip{animation-delay:.28s}
   .niche:nth-child(2),.video-card:nth-child(2),.path-card:nth-child(2){animation-delay:.06s}
   .niche:nth-child(3),.video-card:nth-child(3){animation-delay:.12s}
 }
@@ -674,6 +747,8 @@ section.wide{padding:128px 0}
   h2{font-size:44px}
   .hero > .container{grid-template-columns:1fr;gap:38px}
   .hero > .container::after,.hero > .container::before{display:none}
+  .hero-visual-shell{grid-column:1;grid-row:auto;transform:none;max-width:760px}
+  .hero-visual,.hero-visual img,.hero-visual video{min-height:420px}
   .hero-home .hero-stats,.data-hero-stats{grid-template-columns:repeat(2,1fr)}
   .niche,.niche:nth-child(4n+1),.niche:nth-child(5n+2){grid-column:span 6}
   .product-detail,.workflow-steps,.commercial-points{grid-template-columns:repeat(2,1fr)}
@@ -690,6 +765,9 @@ section.wide{padding:128px 0}
   h1{font-size:42px;line-height:1.06}
   h2{font-size:34px;line-height:1.08}
   .hero{padding:72px 0 64px}
+  .hero-visual-shell{padding:7px;border-radius:14px}
+  .hero-visual,.hero-visual img,.hero-visual video{min-height:340px}
+  .hero-map-card{position:relative;width:auto;margin:10px;left:auto;right:auto;top:auto;bottom:auto}
   section{padding:72px 0}
   .hero-home .hero-stats,.data-hero-stats,.plan-grid,.risk-success,.path-cards,.grid-2,.grid-3,.grid-4,.why-us-grid,.featured-stats,.video-grid,.product-head,.product-detail,.layer-grid,.dont-list,.workflow-steps,.contrast-grid,.workshop-steps,.icp-grid,.founders-grid,.org-grid,.commercial-points,.home-video-block{
     grid-template-columns:1fr;

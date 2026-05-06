@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "render:hero": "remotion render src/index.ts BuyerMapHero assets/aa-buyer-map-hero-loop.mp4 --codec h264 --crf 22",
+    "preview:hero": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.457",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "remotion": "4.0.457"
+  }
+}
