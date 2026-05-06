@@ -1,4 +1,4 @@
-/* 2026-05-06 redesign v2 */
+/* 2026-05-06 copy website v1 */
 
 :root{
   --orange:#DF6F28;
@@ -92,6 +92,19 @@ p{text-wrap:pretty}
 .p-spaced{margin-top:12px}
 .cta-centred-small{justify-content:center;margin-top:12px}
 .caption-spaced{margin-top:32px}
+.placeholder-note{
+  margin-top:22px;
+  padding:18px 20px;
+  border-radius:8px;
+  border:1px dashed rgba(223,111,40,.55);
+  background:rgba(223,111,40,.08);
+  color:var(--muted);
+  font-size:14px;
+}
+.flow-strip{background:var(--surface-2);padding:22px 0}
+.flow-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.flow-row a{padding:8px 10px;border-radius:6px;background:var(--surface);border:1px solid rgba(23,19,15,.1);font-weight:600}
+.flow-row span{color:var(--orange)}
 
 /* Buttons */
 .btn{
@@ -195,6 +208,11 @@ p{text-wrap:pretty}
   box-shadow:var(--shadow);
   transform:rotate(1.2deg);
 }
+.hero-home > .container::after{
+  background:
+    linear-gradient(90deg,rgba(255,252,246,.82),rgba(255,252,246,.1)),
+    url("assets/market-access-hero.png") center/cover;
+}
 .hero > .container::before{
   content:"82 ICPs\A 36 niches\A 42 roles";
   white-space:pre;
@@ -213,6 +231,12 @@ p{text-wrap:pretty}
   background:rgba(245,241,234,.78);
   border:1px solid rgba(23,19,15,.16);
   box-shadow:0 20px 46px rgba(65,47,30,.12);
+}
+.hero-home > .container::before{
+  content:"82 ICPs\A 36 niches\A 42 roles\A 4,821 titles";
+  background:rgba(23,19,15,.78);
+  color:var(--surface);
+  border-color:rgba(255,255,255,.18);
 }
 .hero h1 em{display:inline}
 .hero-sub{margin-bottom:38px}

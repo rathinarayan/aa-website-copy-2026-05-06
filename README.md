@@ -2,16 +2,16 @@
 
 Created on 2026-05-06.
 
-This folder is the recommended working copy for the next AA website pass. It starts from the 2026-05-06 redesign baseline and tightens the whole site: page flow, StoryBrand homepage structure, aggregate proof, contact path, accessibility basics, metadata, and version control.
+This folder is the 2026-05-06 copy website pass. Narayan approved overwriting this version after the first draft was not sharp enough. Previous version folders remain untouched.
 
 ## Decision
 
 Use a two-offer public architecture:
 
-1. Growth engine - one outbound growth product where human-led delivery and AI-scalable outbound work sit together.
+1. Growth - the managed outbound channel for companies with an exact buyer to reach.
 2. AI Solutions - standalone internal business AI for operations, documents, support, reporting, ordering, and similar workflows.
 
-Do not create a separate public Workshop page. Keep the workshop as a short section inside `data.html`.
+Do not create a separate public Workshop page. Keep the buyer map workshop as a short section inside `data.html`.
 
 ## Proof hierarchy
 
@@ -19,7 +19,6 @@ Lead with aggregate proof, not one named client.
 
 The site proves breadth first, using the `AA_Clients_ICPs` artefacts as the current source:
 
-- Hundreds of Australian B2B businesses across many niches since 2021.
 - 82 historical ICPs successfully structured into the aggregate data set.
 - 36 Australian B2B niche profiles mapped from those ICPs.
 - 42 canonical decision-maker roles mapped by function.
@@ -43,10 +42,10 @@ This is important because AA serves many niches. One client story can accidental
 ## Files
 
 - `index.html` - home page and main credibility pack.
-- `services.html` - Growth engine and AI Solutions.
-- `ai.html` - AI positioning and FAQ.
+- `growth.html` - managed outbound channel.
+- `ai-solutions.html` - practical internal AI systems.
 - `data.html` - data process and workshop section.
-- `case-studies.html` - aggregate proof layer and niche grid.
+- `proof.html` - aggregate proof layer and niche grid.
 - `team.html` - founders, team structure and awards.
 - `contact.html` - enquiry form and direct email path.
 - `privacy.html` - plain privacy page for the marketing site.
