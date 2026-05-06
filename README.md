@@ -8,7 +8,7 @@ This folder is the 2026-05-06 copy website pass. Narayan approved overwriting th
 
 Use a two-offer public architecture:
 
-1. Growth - the performance-aligned outbound partnership for companies with specific buyers to reach.
+1. Growth - the collaborative outbound partnership for companies with specific buyers to reach.
 2. AI Solutions - standalone internal business AI for operations, documents, support, reporting, ordering, and similar repeatable work.
 
 Do not create a separate public Workshop page. Keep the buyer map workshop as a short section inside `data.html`.
@@ -43,7 +43,7 @@ This is important because AA serves many niches. One client story can accidental
 ## Files
 
 - `index.html` - home page and main credibility pack.
-- `growth.html` - performance-aligned outbound partnership.
+- `growth.html` - collaborative outbound partnership.
 - `ai-solutions.html` - practical internal AI systems.
 - `data.html` - data process and workshop section.
 - `proof.html` - proof across niches and buyer data.

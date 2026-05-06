@@ -18,7 +18,7 @@ This review treats the homepage as if it is being read by three likely buyers:
 | Who is it for? | Pass | The page names Australian B2B companies with specific buyers to reach. |
 | Why should the buyer care? | Pass | The page connects AA to qualified conversations, better buyer clarity and less reliance on referrals. |
 | Why is AA different? | Pass with watch item | The difference is clear: buyer clarity, checked data, human judgement, Australian B2B buyer patterns, founding-team recognition. The award wording still needs final confirmation before launch. |
-| What should the visitor do next? | Pass | The primary CTA is clear: Start a fit conversation. |
+| What should the visitor do next? | Pass | The primary CTA is clear: Start the conversation. |
 
 ## Scorecard
 
